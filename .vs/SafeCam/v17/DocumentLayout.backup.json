@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\SafeCam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35120196-F6E9-426F-B8EE-4B69FC9A29B9}|SafeCam\\SafeCam.csproj|c:\\users\\user\\desktop\\safecam\\safecam\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35120196-F6E9-426F-B8EE-4B69FC9A29B9}|SafeCam\\SafeCam.csproj|solutionrelative:safecam\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35120196-F6E9-426F-B8EE-4B69FC9A29B9}|SafeCam\\SafeCam.csproj|c:\\users\\user\\desktop\\safecam\\safecam\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35120196-F6E9-426F-B8EE-4B69FC9A29B9}|SafeCam\\SafeCam.csproj|solutionrelative:safecam\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35120196-F6E9-426F-B8EE-4B69FC9A29B9}|SafeCam\\SafeCam.csproj|c:\\users\\user\\desktop\\safecam\\safecam\\utilities\\fileupload\\imageupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35120196-F6E9-426F-B8EE-4B69FC9A29B9}|SafeCam\\SafeCam.csproj|solutionrelative:safecam\\utilities\\fileupload\\imageupload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 224,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\SafeCam\\SafeCam\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "SafeCam\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\SafeCam\\SafeCam\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "SafeCam\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAawBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:31:50.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageUpload.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\SafeCam\\SafeCam\\Utilities\\FileUpload\\ImageUpload.cs",
+              "RelativeDocumentMoniker": "SafeCam\\Utilities\\FileUpload\\ImageUpload.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\SafeCam\\SafeCam\\Utilities\\FileUpload\\ImageUpload.cs",
+              "RelativeToolTip": "SafeCam\\Utilities\\FileUpload\\ImageUpload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:55:39.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\SafeCam\\SafeCam\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SafeCam\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\SafeCam\\SafeCam\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SafeCam\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwDkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:40:46.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

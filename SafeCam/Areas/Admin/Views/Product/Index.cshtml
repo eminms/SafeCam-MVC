@@ -1,0 +1,62 @@
+﻿@using SafeCam.Models
+@model List<Product>
+
+@{
+    int counter = 1;
+}
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Tables</h1>
+    <p class="mb-4">
+        DataTables is a third party plugin that is used to generate the demo table below.
+        For more information about DataTables, please visit the <a target="_blank"
+                                                                   href="https://datatables.net">official DataTables documentation</a>.
+    </p>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Products</h6>
+            <a class="btn btn-success" asp-action="Create" asp-controller="Product">Add Product</a>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Id</th>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Category</th>
+                            <th>Delete</th>
+                            <th>Update</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var product in Model)
+                        {
+                            <tr>
+                                <td>@counter</td>
+                                <td>@product.Id</td>
+                                <td><img src="~/Upload/Product/@product.Image" width="100px" height="100px" /></td>
+                                <td>@product.Name</td>
+                                <td>@product.Category.Name</td>
+                                <form asp-action="Delete" asp-controller="Product" asp-route-id="@product.Id">
+                                <td><button class="btn btn-danger">Delete</button></td>
+                                </form>
+                                <td><a asp-action="Update" asp-controller="Product" class="btn btn-warning" asp-route-id="@product.Id">Update</a></td>
+                            </tr>
+                            counter++;
+                        }
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>

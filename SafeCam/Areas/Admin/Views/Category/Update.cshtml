@@ -1,0 +1,13 @@
+﻿@using SafeCam.Models
+@model Category
+
+<form asp-action="Update" asp-controller="Category" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Name">Name</label>
+        <input asp-for="Name" type="text" class="form-control" id="Name" placeholder="Enter Name">
+        <span class="text-danger" asp-validation-for="Name"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
